@@ -49,7 +49,7 @@ entries:
     folderitems:
 
     - title: Machine Learning Basics
-      url: /mydoc_release_notes_60.html
+      url: /machine_learning_basics.html
       output: web, pdf
 
 #    - title: 5.0 Release notes
