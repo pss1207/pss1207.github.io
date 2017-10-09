@@ -23,7 +23,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: Get started Test
       url: /index.html
       output: web, pdf
       type: homepage
