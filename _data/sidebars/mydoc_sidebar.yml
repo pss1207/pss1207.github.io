@@ -44,12 +44,12 @@ entries:
 #      url: /mydoc_support.html
 #      output: web, pdf
 
-  - title: Deep Learning
+  - title: Deep Feedforward Networks
     output: web, pdf
     folderitems:
 
-    - title: Machine Learning Basics
-      url: /machine_learning_basics.html
+    - title: Multilayer Perceptrons (MLPs)
+      url: /mlp.html
       output: web, pdf
 
 #    - title: 5.0 Release notes
