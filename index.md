@@ -5,7 +5,7 @@ tags: [profile]
 sidebar: mydoc_sidebar
 permalink: index.html
 summary: Algorithm Engineer with 8+ years in analysis, design, development and implementation of medical and healthcare algorithms.
-Highlights: healthcare algorithms, signal processing, ultrasound elastography, optical coherence tomography, MATLAB, python, and c.
+
 ---
 ---
 # Research Areas
