@@ -11,18 +11,20 @@ Highlights: healthcare algorithms, signal processing, ultrasound elastography, o
 # Research Areas
 
 ### Data Science
-* Body Composition Analysis - Body Fat, Muscle, Body Water<br>
-* Sleep Stage Classification<br>
-* Stress Classification<br>
-* Emotion Recognition<br>
+* Body Composition Analysis - Body Fat, Muscle, Body Water
+* Sleep Stage Classification
+* Stress Classification
+* Emotion Recognition
+
 ### Medical Imaging
-* Ultrasound Elastography<br>
-* Optical Coherence Tomography<br>
+* Ultrasound Elastography
+* Optical Coherence Tomography
+
 ### Bio Signal Processing
-* Heart Rate and Heart Rate Variability<br>
-* Motion Artifact Removal<br>
-* Respiratory Rate<br>
-* Noise Removal<br>
+* Heart Rate and Heart Rate Variability
+* Motion Artifact Removal
+* Respiratory Rate
+* Noise Removal
 
 # Skills
 
