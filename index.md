@@ -1,6 +1,6 @@
 ---
-title: Sangshik Park
-keywords: profile
+title: Resume
+keywords: resume
 tags: [profile]
 sidebar: mydoc_sidebar
 permalink: index.html
