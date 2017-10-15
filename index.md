@@ -15,11 +15,9 @@ Highlights: healthcare algorithms, signal processing, ultrasound elastography, o
 * Sleep Stage Classification
 * Stress Classification
 * Emotion Recognition
-
 ### Medical Imaging
 * Ultrasound Elastography
 * Optical Coherence Tomography
-
 ### Bio Signal Processing
 * Heart Rate and Heart Rate Variability
 * Motion Artifact Removal
