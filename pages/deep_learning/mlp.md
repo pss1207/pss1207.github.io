@@ -20,4 +20,5 @@ Deep Feedforward Networks 또는 Feedforward Neural Networks라고도 불리는 
 ###Hidden Layer
 1st layer와 2nd layer를 hidden layer라고 부르는데 이는 모델을 학습할 때 training data에 input data와 output label에 대한 정보만 있고 각 hidden layer의 output에 대한 정보는 없기 때문이다.
 
+
 {% include links.html %}
