@@ -8,7 +8,7 @@ summary: Algorithm Engineer with 8+ years in analysis, design, development and i
 Highlights: healthcare algorithms, signal processing, ultrasound elastography, optical coherence tomography, MATLAB, python, and c.
 ---
 
-## Research Areas
+# Research Areas
 
 ### Data Science
 Body Composition Analysis - Body Fat, Muscle, Body Water<br>
