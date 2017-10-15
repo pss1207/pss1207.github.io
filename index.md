@@ -11,36 +11,36 @@ Highlights: healthcare algorithms, signal processing, ultrasound elastography, o
 # Research Areas
 
 ### Data Science
-Body Composition Analysis - Body Fat, Muscle, Body Water<br>
-Sleep Stage Classification<br>
-Stress Classification<br>
-Emotion Recognition<br>
+* Body Composition Analysis - Body Fat, Muscle, Body Water<br>
+* Sleep Stage Classification<br>
+* Stress Classification<br>
+* Emotion Recognition<br>
 ### Medical Imaging
-Ultrasound Elastography<br>
-Optical Coherence Tomography<br>
+* Ultrasound Elastography<br>
+* Optical Coherence Tomography<br>
 ### Bio Signal Processing
-Heart Rate and Heart Rate Variability<br>
-Motion Artifact Removal<br>
-Respiratory Rate<br>
-Noise Removal<br>
+* Heart Rate and Heart Rate Variability<br>
+* Motion Artifact Removal<br>
+* Respiratory Rate<br>
+* Noise Removal<br>
 
 # Skills
 
 ### Software
-MATLAB<br>
-Python<br>
-R<br>
-C/C++<br>
-LabVIEW<br>
+* MATLAB<br>
+* Python<br>
+* R<br>
+* C/C++<br>
+* LabVIEW<br>
 ### Machine Learning Tools
-Tensorflow<br>
-Pytorch<br>
-Keras<br>
-Scikit-Learn<br>
+* Tensorflow<br>
+* Pytorch<br>
+* Keras<br>
+* Scikit-Learn<br>
 ### Database / Web / App
-SQL<br>
-Amazon Web Service<br>
-Android<br>
+* SQL<br>
+* Amazon Web Service<br>
+* Android<br>
 
 # Experience
 ## Samsung Electronics / Senior Algorithm Engineer
