@@ -83,13 +83,13 @@ JUNE 2007 - DECEMBER 2010,  SEOUL
 * Application: Breast / Prostate / Gynecology
 
 # Education
-### Seoul National University / M.S.
+## Seoul National University / M.S.
 2005 - 2007, SOUTH KOREA
 * Area: Low-power VLSI Signal Processing
 * Advisor: Prof. Wonyong Sung
 * Thesis: VLSI Design of Low Power FIR Filter Bank for Digital Hearing Aids
 
-### Kyunghee University / B.S.
+## Kyunghee University / B.S.
 2001 - 2005, SOUTH KOREA
 
 # Honors and Awards
