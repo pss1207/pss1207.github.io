@@ -8,21 +8,40 @@ summary: Algorithm Engineer with 8+ years in analysis, design, development and i
 Highlights: healthcare algorithms, signal processing, ultrasound elastography, optical coherence tomography, MATLAB, python, and c.
 ---
 
-## RESEARCH AREAS
+## Research Areas
 
 ### Data Science
-Body Composition Analysis - Body Fat, Muscle, Body Water
-Sleep Stage Classification
-Stress Classification
-Emotion Recognition
+Body Composition Analysis - Body Fat, Muscle, Body Water<br>
+Sleep Stage Classification<br>
+Stress Classification<br>
+Emotion Recognition<br>
 ### Medical Imaging
-Ultrasound Elastography
-Optical Coherence Tomography
+Ultrasound Elastography<br>
+Optical Coherence Tomography<br>
 ### Bio Signal Processing
-Heart Rate and Heart Rate Variability
-Motion Artifact Removal
-Respiratory Rate
-Noise Removal
+Heart Rate and Heart Rate Variability<br>
+Motion Artifact Removal<br>
+Respiratory Rate<br>
+Noise Removal<br>
+
+## Skills
+
+### Software
+MATLAB<br>
+Python<br>
+R<br>
+C/C++<br>
+LabVIEW<br>
+### Machine Learning Tools
+Tensorflow<br>
+Pytorch<br>
+Keras<br>
+Scikit-Learn<br>
+### Database / Web / App
+SQL<br>
+Amazon Web Service<br>
+Android<br>
+
 
 
 ### 1. Download the theme
