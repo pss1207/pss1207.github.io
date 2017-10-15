@@ -26,7 +26,7 @@ Highlights: healthcare algorithms, signal processing, ultrasound elastography, o
 * Respiratory Rate
 * Noise Removal
 
----
+<hr>
 
 # Skills
 
