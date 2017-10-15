@@ -44,42 +44,42 @@ Android<br>
 
 # Experience
 ## Samsung Electronics / Senior Algorithm Engineer
-### NOVEMBER 2014 - PRESENT,  GYEONGGI<br>
-#### S-Patch (KFDA)<br>
+NOVEMBER 2014 - PRESENT,  GYEONGGI<br>
+### S-Patch (KFDA)<br>
 Developed heart rate estimation, heart rate variability estimation algorithms<br>
 Developed respiratory rate estimation algorithm<br>
 Developed stress estimation algorithm for elite athletes<br>
 Developed sleep stage classification algorithm<br>
 Developed cloud service system using AWS<br>
-#### Body Composition Analysis<br>
+### Body Composition Analysis<br>
 Developed body fat, skeletal muscle mass, and body water estimation algorithm using bioelectrical impedance
-#### Photoplethysmography (PPG)<br>
+### Photoplethysmography (PPG)<br>
 Developed motion artifact removal algorithm using photoplethysmography and acceleration data for wrist-type wearable band<br>
 ## LG Electronics / Research Engineer
-### JULY 2012 - JULY 2014,  SEOUL<br>
-#### Ultrasound<br>
+JULY 2012 - JULY 2014,  SEOUL<br>
+### Ultrasound<br>
 Developed software-based beamforming algorithm for ultrasound system<br>
 Developed image processing algorithm for noise removal<br>
-#### Optical Coherence Tomography (OCT)<br>
+### Optical Coherence Tomography (OCT)<br>
 Invented collagen estimation algorithm using polarization sensitive OCT<br>
 Invented skin thickness measurement, wrinkle estimation, dermal density estimation<br> algorithms for dermatology application<br>
 Invented speckle noise reduction algorithm<br>
 ## Samsung Medison / Associate Research Engineer
-### JUNE 2007 - DECEMBER 2010,  SEOUL<br>
-#### ElastoScanTM (FDA)<br>
+JUNE 2007 - DECEMBER 2010,  SEOUL<br>
+### ElastoScanTM (FDA)<br>
 Invented displacement and strain estimation algorithm for freehand elastography<br>
 Invented adaptive persistence, dropout correction, and window correlation algorithms for noise removal<br>
 Succeeded in commercialization under the name ElastoScanTM<br>
 Application: Breast / Prostate / Gynecology<br>
 
 # Education
-## Seoul National University / M.S.
-### 2005 - 2007, SOUTH KOREA<br>
+### Seoul National University / M.S.
+2005 - 2007, SOUTH KOREA<br>
 Area: Low-power VLSI Signal Processing<br>
 Advisor: Prof. Wonyong Sung<br>
 Thesis: VLSI Design of Low Power FIR Filter Bank for Digital Hearing Aids<br>
-## Kyunghee University / B.S.
-### 2001 - 2005, SOUTH KOREA<br>
+### Kyunghee University / B.S.
+2001 - 2005, SOUTH KOREA<br>
 
 # Honors and Awards
 2002     Korea Research Foundation Scholarship - Full Scholarship<br>
