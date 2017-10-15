@@ -1,15 +1,29 @@
 ---
-title: Getting started with the Documentation Theme for Jekyll
-keywords: sample homepage
-tags: [getting_started]
+title: Sangshik Park
+keywords: profile
+tags: [profile]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: Algorithm Engineer with 8+ years in analysis, design, development and implementation of medical and healthcare algorithms.
+Highlights: healthcare algorithms, signal processing, ultrasound elastography, optical coherence tomography, MATLAB, python, and c.
 ---
 
-## Build the Theme
+## RESEARCH AREAS
 
-Follow these instructions to build the theme.
+### Data Science
+Body Composition Analysis - Body Fat, Muscle, Body Water
+Sleep Stage Classification
+Stress Classification
+Emotion Recognition
+### Medical Imaging
+Ultrasound Elastography
+Optical Coherence Tomography
+### Bio Signal Processing
+Heart Rate and Heart Rate Variability
+Motion Artifact Removal
+Respiratory Rate
+Noise Removal
+
 
 ### 1. Download the theme
 
