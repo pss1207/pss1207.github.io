@@ -1,6 +1,6 @@
 ---
-title: Resume
-keywords: resume
+title: Profile
+keywords: profile
 tags: [profile]
 sidebar: mydoc_sidebar
 permalink: index.html
