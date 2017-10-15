@@ -8,6 +8,8 @@ sidebar: mydoc_sidebar
 permalink: mlp.html
 folder: deep_learning
 ---
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
 ## Multilayer Perceptrons (MLPs)
 
