@@ -26,6 +26,8 @@ Highlights: healthcare algorithms, signal processing, ultrasound elastography, o
 * Respiratory Rate
 * Noise Removal
 
+---
+
 # Skills
 
 ### Software
@@ -45,6 +47,8 @@ Highlights: healthcare algorithms, signal processing, ultrasound elastography, o
 * SQL
 * Amazon Web Service
 * Android
+
+---
 
 # Experience
 ## Samsung Electronics / Senior Algorithm Engineer
@@ -82,6 +86,8 @@ JUNE 2007 - DECEMBER 2010,  SEOUL
 * Succeeded in commercialization under the name ElastoScanTM
 * Application: Breast / Prostate / Gynecology
 
+---
+
 # Education
 ## Seoul National University / M.S.
 2005 - 2007, SOUTH KOREA
@@ -92,6 +98,8 @@ JUNE 2007 - DECEMBER 2010,  SEOUL
 ## Kyunghee University / B.S.
 2001 - 2005, SOUTH KOREA
 
+---
+
 # Honors and Awards
 * 2002     Korea Research Foundation Scholarship - Full Scholarship
 * 2003     Korea Research Foundation Scholarship - Full Scholarship
@@ -100,12 +108,16 @@ JUNE 2007 - DECEMBER 2010,  SEOUL
 * 2005     Seoul National University Scholarship
 * 2006     Samsung Medison Scholarship
 
+---
+
 # Patents
 * Adaptive Persistence Processing of Elastic Images, US 8337406 B2 / EP 2189116 B1
 * Dropout Correction in Ultrasound Strain Imaging, US 8503714 B2
 * Providing an Elastic Image in an Ultrasound System, US 9125618 B2
 * Setting an Optimal Image Parameter in an Ultrasound System, US 8834374 B2 / EP 2289420 B1
 * Ultrasound Strain Imaging via Pixel Frame and Window Correlation, US 9289190 B2
+
+---
 
 # Publications
 * Speckle Reduction in Optical Coherence Tomography Images via Dynamic Infinite-Impulse-Response Filtering, J Lee, SS Park, JH Chung, SPIE, 2014
