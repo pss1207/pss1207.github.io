@@ -25,7 +25,9 @@ Deep Feedforward Networks 또는 Feedforward Neural Networks라고도 불리는 
 nonlinear model로 표현하기 위해 각 unit의 입력을 x가 아닌 $$\phi(x)$$라는 nonlinear transformation을 적용한다.
 
 ### Example: Learning XOR
-XOR은 두개의 binary value인 x1과 x2에 대한 연산으로 두 값이 다를때에는 1을, 같을때에는 0을 return한다. $$y=f^{ * }(x)$$를 target function, $$y=f(x;\theta)$$를 학습할 모델이라고 하자. 학습 알고리즘은 parameter $$\theta$$를 변경하여 $$f$$를 $$f^{ * }$$와 가장 유사하도록 하는것이 목표이다.
+XOR은 두개의 binary value인 x1과 x2에 대한 연산으로 두 값이 다를때에는 1을, 같을때에는 0을 return한다. $$y=f^{ * }(x)$$를 target function, $$y=f(x;\theta)$$를 학습할 모델이라고 하자. 학습 알고리즘은 parameter $$\theta$$를 변경하여 $$f$$를 $$f^{ * }$$와 가장 유사하도록 하는것이 목표이다.<br>
+MSE function은 다음과 같다.<br>
+$$J(\theta )=\frac { 1 }{ 4 } \sum _{ x\in \Chi  }^{  }{ { (f^{ * }\left( x \right) -f(x;\theta )) }^{ 2 } }$$
 
 
 
