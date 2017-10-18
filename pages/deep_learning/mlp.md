@@ -32,7 +32,7 @@ MSE function: $$J ( \theta ) = \frac { 1 }{ 4 } \sum_{ x \in X  }^{  }{ { (f^{ *
 전체 모델을 나타내면 $$f(x;W,c,w,b)=f^{(2)}(f^{(1)}(x))$$가 된다. 하지만 $$f^{(1)}$$이 linear이면 전체 모델도 linear model이 되어버린다. $$f(x)=w^{T}W^{T}x$$ <br>
 그렇다면 $$h=g(W^{T}x+c)$$와 같이 nonlinear function을 써보자. 이때 $$g(z)=max\{0,z\}$$로 정의되는 ReLU function으로 정의하면 $$f(x;W,c,w,b)=w^{T}max\{0, W^{T}x+c\}+b$$가 된다. <br>
 W, c, w를 다음과 같다고 가정하자.
-$$W=\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix},\quad c=\begin{bmatrix} 0 \\ -1 \end{bmatrix},\quad w=\begin{vmatrix} 1  \\ -2  \end{vmatrix}$$<br>
+$$W=\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix},\quad c=\begin{bmatrix} 0 \\ -1 \end{bmatrix},\quad w=\begin{bmatrix} 1  \\ -2  \end{bmatrix}$$<br>
 입력 X가 $$X=\begin{bmatrix} 0 & 0 \\ 0 & 1 \\ 1 & 0 \\ 1 & 1 \end{bmatrix}$$이면, XW는 다음과 같다. $$XW=\begin{bmatrix} 0 & 0 \\ 1 & 1 \\ 1 & 1 \\ 2 & 2 \end{bmatrix}$$<br>
 여기에 c를 더하면 $$XW+c=\begin{bmatrix} 0 & -1 \\ 1 & 0 \\ 1 & 0 \\ 2 & 1 \end{bmatrix}$$이 된다. <br>
 Nonlinear function인 ReLU를 적용하면 $$ReLU(XW+c)=\begin{bmatrix} 0 & 0 \\ 1 & 0 \\ 1 & 0 \\ 2 & 1 \end{bmatrix}$$가 되는데 2번째와 3번째 행이 동일해진것을 확인할 수 있다. 즉, 입력 X가 1(01) 또는 2(10)일 때의 ReLU출력이 동일해져서 output layer에서 linear model로 구분이 가능해진것이다.
