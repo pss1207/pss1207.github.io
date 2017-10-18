@@ -26,7 +26,17 @@ nonlinear model로 표현하기 위해 각 unit의 입력을 x가 아닌 $$\phi(
 
 ### Example: Learning XOR
 XOR은 두개의 binary value인 x1과 x2에 대한 연산으로 두 값이 다를때에는 1을, 같을때에는 0을 return한다. $$y=f^{ * }(x)$$를 target function, $$y=f(x;\theta)$$를 학습할 모델이라고 하자. 학습 알고리즘은 parameter $$\theta$$를 변경하여 $$f$$를 $$f^{ * }$$와 가장 유사하도록 하는것이 목표이다.<br>
-MSE function: $$J(\theta )=\frac { 1 }{ 4 } \sum _{ x\in X  }^{  }{ { (f^{ * }\left( x \right) -f(x;\theta )) }^{ 2 } }$$
+MSE function: $$J ( \theta ) = \frac { 1 }{ 4 } \sum_{ x \in X  }^{  }{ { (f^{ * } \left ( x \right) -f( x; \theta ) ) }^{ 2 } }$$
+만약, $$f(x;\theta)$$가 linear model이라면 $$f(x;w,b)=x^{ T }w+b$$로 정의할 수 있다. x가 0, 1, 2, 3일 때 y는 0, 1, 1, 0이 되므로 linear model의 결과는 w=0, $$b=\frac{1}{2}$$가 될 것이다. 즉, linear model로는 XOR 문제를 풀 수 없다. linear model로 풀기 위해서는 다른 feature space를 사용하여야 한다.
+앞의 모델에서 하나의 hidden layer가 더 있다고 가정하자. hidden layer에서는 $$h=f^{ (1) }(x;W,c)$$ 연산을 하고 그 결과가 output layer로 들어갈 것이다. 즉, $$y=f^{(2)}(h;w,b)$$가 된다.
+전체 모델을 나타내면 $$f(x;W,c,w,b)=f^{(2)}(f^{(1)}(x))$$가 된다. 하지만 $$f^{(1)}$$이 linear이면 전체 모델도 linear model이 되어버린다. $$f(x)=w^{T}W^{T}x$$ <br>
+그렇다면 $$h=g(W^{T}x+c)$$와 같이 nonlinear function을 써보자. 이때 $$g(z)=max\{0,z\}$$로 정의되는 ReLU function으로 정의하면 $$f(x;W,c,w,b)=w^{T}max\{0, W^{T}x+c\}+b$$가 된다. <br>
+W, c, w를 다음과 같다고 가정하자.
+$$W=\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix},\quad c=\begin{bmatrix} 0 \\ -1 \end{bmatrix},\quad w=\begin{vmatrix} 1  \\ -2  \end{vmatrix}$$<br>
+입력 X가 $$X=\begin{bmatrix} 0 & 0 \\ 0 & 1 \\ 1 & 0 \\ 1 & 1 \end{bmatrix}$$이면, XW는 다음과 같다. $$XW=\begin{bmatrix} 0 & 0 \\ 1 & 1 \\ 1 & 1 \\ 2 & 2 \end{bmatrix}$$<br>
+여기에 c를 더하면 $$XW+c=\begin{bmatrix} 0 & -1 \\ 1 & 0 \\ 1 & 0 \\ 2 & 1 \end{bmatrix}$$이 된다. <br>
+Nonlinear function인 ReLU를 적용하면 $$ReLU(XW+c)=\begin{bmatrix} 0 & 0 \\ 1 & 0 \\ 1 & 0 \\ 2 & 1 \end{bmatrix}$$가 되는데 2번째와 3번째 행이 동일해진것을 확인할 수 있다. 즉, 입력 X가 1(01) 또는 2(10)일 때의 ReLU출력이 동일해져서 output layer에서 linear model로 구분이 가능해진것이다.
+
 
 
 
