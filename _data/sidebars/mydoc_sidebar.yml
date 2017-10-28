@@ -52,6 +52,13 @@ entries:
       url: /mlp.html
       output: web, pdf
 
+  - title: Reinforcement Learning
+    output: web, pdf
+    folderitems:
+
+    - title: Markov Decision Process and Bellman Equation
+      url: /mdp.html
+      output: web, pdf
 #    - title: 5.0 Release notes
 #      url: /mydoc_release_notes_50.html
 #      output: web, pdf
