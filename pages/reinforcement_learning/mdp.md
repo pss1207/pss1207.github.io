@@ -33,7 +33,7 @@ $${ { P }_{ ss' }^{ a } }=P[{ S }_{ t+1 }=s'|{ S }_{ t }=s,{ A }_{ t }=a]$$
 각 State에서 Agent가 취할 Action으로 State가 input이 되고 Action이 output이 된다. output은 단일 action이 될 수도 있고 각 action들의 probability가 될 수도 있다. 학습을 통해 Optimum Policy를 찾는 것이 최종 목표이다. <br>
 $${ \pi (a|s) }=P[{ A }_{ t }=a|{ S }_{ t }=s]$$
 
-## Value function
+## Value Function
 Agent는 Current State에서 앞으로 받을 Reward들을 고려하여 Action을 선택해야 Optimal Policy에 도달할 수 있다. 이 때 받을 Reward를 예상하는 함수가 Value Function이다. <br>
 시간 t에서 단순히 앞으로의 Step들의 Reward를 더한다면 $${ G }_{ t }={ R }_{ t+1 }+{ R }_{ t+2 }+{ R }_{ t+3 }+...$$와 같이 될 것이다. 이러한 방식의 문제점은 모든 Step에서의 Reward들에 대한 Weight가 같아서 Current State로 부터의 거리에 대한 정보를 반영할 수가 없다. <br>
 만약, Discount Factor를 적용한다면 다음과 같은 형태가 될 것이다. $${ G }_{ t }={ R }_{ t+1 }+\gamma{ R }_{ t+2 }+{ \gamma }^{ 2 }{ R }_{ t+3 }+...$$ <br>
