@@ -18,24 +18,24 @@ folder: deep_learning
 
 ## MDP의 구성 요소
 ### State
-* Agent의 상황을 나타내는 것으로 로봇의 경우 Sensor값이 된다.
-* 모델을 만들때에는 학습을 하기 위해 충분한 정보가 있는지 체크하여야 한다.
+*  Agent의 상황을 나타내는 것으로 로봇의 경우 Sensor값이 된다.
+*  모델을 만들때에는 학습을 하기 위해 충분한 정보가 있는지 체크하여야 한다.
 ### Action
-* State $${ S }_{ t }$$에서 가능한 행동
+*  State $${ S }_{ t }$$에서 가능한 행동
 ### Reward function
-* State $${ S }_{ t }=s$$에서 Action $${ A }_{ t }=a$$를 취했을 때 Agent가 받을 Reward
-* $${ { R }_{ s }^{ a } }=E[{ R }_{ t+1 }|{ S }_{ t }=s,{ A }_{ t }=a]$$
+*  State $${ S }_{ t }=s$$에서 Action $${ A }_{ t }=a$$를 취했을 때 Agent가 받을 Reward
+*  $${ { R }_{ s }^{ a } }=E[{ R }_{ t+1 }|{ S }_{ t }=s,{ A }_{ t }=a]$$
 ### State Transition Probability
-* Agent가 Current State s에서 어떤 Action a를 취했을 때 Next State s'으로 갈 확률을 나타낸다.
-* $${ { P }_{ ss' }^{ a } }=P[{ S }_{ t+1 }=s'|{ S }_{ t }=s,{ A }_{ t }=a]$$
+*  Agent가 Current State s에서 어떤 Action a를 취했을 때 Next State s'으로 갈 확률을 나타낸다.
+*  $${ { P }_{ ss' }^{ a } }=P[{ S }_{ t+1 }=s'|{ S }_{ t }=s,{ A }_{ t }=a]$$
 ### Discount Factor
-* 나중에 받는 Reward에 대해서는 가치를 줄여주는 것으로 Current State와 가까운 Reward일수록 더 큰 가치를 준다.
-* $$\gamma$$로 표시하며 0에서 1사이 값이 된다.
+*  나중에 받는 Reward에 대해서는 가치를 줄여주는 것으로 Current State와 가까운 Reward일수록 더 큰 가치를 준다.
+*  $$\gamma$$로 표시하며 0에서 1사이 값이 된다.
 ### Policy
-* 각 State에서 Agent가 취할 Action으로 State가 input이 되고 Action이 output이 된다.
-* output은 단일 action이 될 수도 있고 각 action들의 probability가 될 수도 있다.
-* 학습을 통해 Optimum Policy를 찾는 것이 최종 목표이다.
-* $${ \pi (a|s) }=P[{ A }_{ t }=a|{ S }_{ t }=s]$$
+*  각 State에서 Agent가 취할 Action으로 State가 input이 되고 Action이 output이 된다.
+*  output은 단일 action이 될 수도 있고 각 action들의 probability가 될 수도 있다.
+*  학습을 통해 Optimum Policy를 찾는 것이 최종 목표이다.
+*  $${ \pi (a|s) }=P[{ A }_{ t }=a|{ S }_{ t }=s]$$
 
 ## Value Function
 * Agent는 Current State에서 앞으로 받을 Reward들을 고려하여 Action을 선택해야 Optimal Policy에 도달할 수 있다. 이 때 받을 Reward를 예상하는 함수가 Value Function이다.
