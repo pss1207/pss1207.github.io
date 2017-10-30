@@ -40,10 +40,15 @@ $${ \pi (a|s) }=P[{ A }_{ t }=a|{ S }_{ t }=s]$$
 
 ## Value Function
 -  Agent는 Current State에서 앞으로 받을 Reward들을 고려하여 Action을 선택해야 Optimal Policy에 도달할 수 있다. 이 때 받을 Reward를 예상하는 함수가 Value Function이다.
--  시간 t에서 단순히 앞으로의 Step들의 Reward를 더한다면 $${ G }_{ t }={ R }_{ t+1 }+{ R }_{ t+2 }+{ R }_{ t+3 }+...$$와 같이 될 것이다. 이러한 방식의 문제점은 모든 Step에서의 Reward들에 대한 Weight가 같아서 Current State로 부터의 거리에 대한 정보를 반영할 수가 없다.
--  만약, Discount Factor를 적용한다면 다음과 같은 형태가 될 것이다. ${ G }_{ t }={ R }_{ t+1 }+\gamma{ R }_{ t+2 }+{ \gamma }^{ 2 }{ R }_{ t+3 }+...$
--  Value Function은 시간 t에서 State가 s일 때의 Return값 $${ G }_{ t }$$에 대한 Expectation값으로 정의된다. $$v(s) = E[{G}_{t}|{S}_{t}=s]$$
--  위 수식을 대입하면 $$v(s)=E[{ R }_{ t+1 }+\gamma{ R }_{ t+2 }+{ \gamma }^{ 2 }{ R }_{ t+3 }+...|{S}_{t}=s] = E[{ R }_{ t+1 }+\gamma({ R }_{ t+2 }+\gamma{ R }_{ t+3 }+...)|{S}_{t}=s] = E[{ R }_{ t+1 }+\gamma{G}_{t+1}|{S}_{t}=s]$$이 된다. $${G}_{t+1}$$도 결국은 실제 Reward가 아닌 예상되는 값으로 Value Function으로 표현될 수 있다. 즉, $$v(s)=E[{ R }_{ t+1 }+\gamma v({S}_{t+1})|{S}_{t}=s]$$로 표현된다.
+-  시간 t에서 단순히 앞으로의 Step들의 Reward를 더한다면 $${ G }_{ t }={ R }_{ t+1 }+{ R }_{ t+2 }+{ R }_{ t+3 }+...$$와 같이 될 것이다.
+-  이러한 방식의 문제점은 모든 Step에서의 Reward들에 대한 Weight가 같아서 Current State로 부터의 거리에 대한 정보를 반영할 수가 없다.
+-  만약, Discount Factor를 적용한다면 다음과 같은 형태가 될 것이다.
+-  ${ G }_{ t }={ R }_{ t+1 }+\gamma{ R }_{ t+2 }+{ \gamma }^{ 2 }{ R }_{ t+3 }+...$$
+-  Value Function은 시간 t에서 State가 s일 때의 Return값 $${ G }_{ t }$$에 대한 Expectation값으로 정의된다.
+-  $$v(s) = E[{G}_{t}|{S}_{t}=s]$$
+-  위 수식을 대입하면 $$v(s)=E[{ R }_{ t+1 }+\gamma{ R }_{ t+2 }+{ \gamma }^{ 2 }{ R }_{ t+3 }+...|{S}_{t}=s] = E[{ R }_{ t+1 }+\gamma({ R }_{ t+2 }+\gamma{ R }_{ t+3 }+...)|{S}_{t}=s] = E[{ R }_{ t+1 }+\gamma{G}_{t+1}|{S}_{t}=s]$$이 된다.
+- $${G}_{t+1}$$도 결국은 실제 Reward가 아닌 예상되는 값으로 Value Function으로 표현될 수 있다.
+- 즉, $$v(s)=E[{ R }_{ t+1 }+\gamma v({S}_{t+1})|{S}_{t}=s]$$로 표현된다.
 
 ### Bellman Expectation Equation
 - Current State에서 Next State로 넘어갈 때에는 Policy에 따라 Action을 결정한다. 이 때, Policy에 의해 Value Function도 영향을 받는데 이렇게 Policy를 고려한 Value Function을 Bellman Expectation Equation이라고 한다.
