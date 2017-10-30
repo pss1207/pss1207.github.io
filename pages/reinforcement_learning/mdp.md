@@ -16,10 +16,11 @@ folder: deep_learning
 *  Reward: Reinforcement Learning이라고 불리는 이유와 관계되는 핵심 요소로 Agent의 Action에 대한 평가를 나타낸다.
 *  Policy: Agent가 Reward를 받기 위하여 어떠한 Action을 취해야 하는지를 결정한다.
 
+
 ## MDP의 구성 요소
 ### State
-*  Agent의 상황을 나타내는 것으로 로봇의 경우 Sensor값이 된다.
-*  모델을 만들때에는 학습을 하기 위해 충분한 정보가 있는지 체크하여야 한다.
+-  Agent의 상황을 나타내는 것으로 로봇의 경우 Sensor값이 된다.
+-  모델을 만들때에는 학습을 하기 위해 충분한 정보가 있는지 체크하여야 한다.
 ### Action
 *  State $${ S }_{ t }$$에서 가능한 행동
 ### Reward function
