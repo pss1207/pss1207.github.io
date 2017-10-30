@@ -46,7 +46,8 @@ $${ \pi (a|s) }=P[{ A }_{ t }=a|{ S }_{ t }=s]$$
 -  $${ G }_{ t }={ R }_{ t+1 }+\gamma{ R }_{ t+2 }+{ \gamma }^{ 2 }{ R }_{ t+3 }+...$$
 -  Value Function은 시간 t에서 State가 s일 때의 Return값 $${ G }_{ t }$$에 대한 Expectation값으로 정의된다.
 -  $$v(s) = E[{G}_{t}|{S}_{t}=s]$$
--  위 수식을 대입하면 $$v(s)=E[{ R }_{ t+1 }+\gamma{ R }_{ t+2 }+{ \gamma }^{ 2 }{ R }_{ t+3 }+...|{S}_{t}=s] = E[{ R }_{ t+1 }+\gamma({ R }_{ t+2 }+\gamma{ R }_{ t+3 }+...)|{S}_{t}=s] = E[{ R }_{ t+1 }+\gamma{G}_{t+1}|{S}_{t}=s]$$이 된다.
+-  위 수식을 대입하면,
+-  $$v(s)=E[{ R }_{ t+1 }+\gamma{ R }_{ t+2 }+{ \gamma }^{ 2 }{ R }_{ t+3 }+...|{S}_{t}=s] = E[{ R }_{ t+1 }+\gamma({ R }_{ t+2 }+\gamma{ R }_{ t+3 }+...)|{S}_{t}=s] = E[{ R }_{ t+1 }+\gamma{G}_{t+1}|{S}_{t}=s]$$이 된다.
 - $${G}_{t+1}$$도 결국은 실제 Reward가 아닌 예상되는 값으로 Value Function으로 표현될 수 있다.
 - 즉, $$v(s)=E[{ R }_{ t+1 }+\gamma v({S}_{t+1})|{S}_{t}=s]$$로 표현된다.
 
