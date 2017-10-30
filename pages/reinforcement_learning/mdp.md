@@ -55,4 +55,7 @@ $${v}_{\pi}(s)={E}_{\pi}[{ R }_{ t+1 }+\gamma {v}_{\pi}({S}_{t+1})|{S}_{t}=s]$$<
 
 ### Q Function
 Agent는 Value Function을 통해 각각의 Next State에 대한 Total Reward를 알 수 있다. 즉, Value Function은 입력이 State가 되고 출력이 Total Reward가 되는 함수이다.<br>
-Q Function은 Next State의 Value Function이 아니라 Current State에서 각 Action에 대한 Value Function을 나타내는 것을 의미한다.<br>
+Q Function은 Next State의 Value Function이 아니라 Current State에서 각 Action에 대한 Value Function을 나타내는 것을 의미한다. 즉, State와 Action이라는 두개의 변수를 가진다.<br>
+Value Function = Sum of (Policy x Q Function)으로 나타낸다.<br>
+$${ v }_{ \pi  }(s)\quad =\quad \sum _{ a\in A }^{  }{ \pi (a|s){ q }_{ \pi  }(s,a) } $$<br>
+Q Function의 Bellman Expectation Equation: $${q}_{\pi}(s,a)={E}_{\pi}[{ R }_{ t+1 }+\gamma {q}_{\pi}({S}_{t+1}, {A}_{t+1})|{S}_{t}=s, {A}_{t}=a]$$<br>
