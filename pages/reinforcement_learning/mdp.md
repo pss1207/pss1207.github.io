@@ -59,3 +59,10 @@ Q Function은 Next State의 Value Function이 아니라 Current State에서 각 
 Value Function = Sum of (Policy x Q Function)으로 나타낸다.<br>
 $${ v }_{ \pi  }(s)\quad =\quad \sum _{ a\in A }^{  }{ \pi (a|s){ q }_{ \pi  }(s,a) } $$<br>
 Q Function의 Bellman Expectation Equation: $${q}_{\pi}(s,a)={E}_{\pi}[{ R }_{ t+1 }+\gamma {q}_{\pi}({S}_{t+1}, {A}_{t+1})|{S}_{t}=s, {A}_{t}=a]$$<br>
+
+## Bellman Equation
+### Bellman Expectation Equation
+Value Function은 Agent가 어떤 State로 갈 경우 받을 Reward의 합에 대한 Expectation을 나타낸다. <br>
+여기에 Policy를 반영한 것이 Bellman Expectation Equation이며 아래와 같이 표현한다. <br>
+$${v}_{\pi}(s) = {E}_{\pi}[{R}_{t+1} + \gamma{v}_{\pi}({S}_{t+1})|{S}_{t}=s]$$
+### Bellman Optimal Equation
