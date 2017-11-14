@@ -66,3 +66,9 @@ Value Function은 Agent가 어떤 State로 갈 경우 받을 Reward의 합에 �
 여기에 Policy를 반영한 것이 Bellman Expectation Equation이며 아래와 같이 표현한다. <br>
 $${v}_{\pi}(s) = {E}_{\pi}[{R}_{t+1} + \gamma{v}_{\pi}({S}_{t+1})|{S}_{t}=s]$$
 ### Bellman Optimal Equation
+여러가지의 policy중 가장 높은 reward를 주는 value Function <br>
+Reinforcement Learning은 MDP로 정의되는 문제에서 Optimal Policy를 찾는 것 <br>
+좋은 Policy는 Reward의 합인 Value Function으로 판단 -> Value Function으로 Policy를 평가함 <br>
+$$Optimal Value Function: {v}_{*}(s) = max[{v}_{\pi}(s)]$$ <br>
+$$Optimal Q Function: {q}_{*}(s,a)=max[{q}_{\pi}(s,a)]$$ <br>
+Q Function중 가장 높은 Action을 실행 (Q Function으로 행동을 판단) <br>
