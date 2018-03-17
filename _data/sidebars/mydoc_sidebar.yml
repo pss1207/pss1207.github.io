@@ -44,12 +44,12 @@ entries:
 #      url: /mydoc_support.html
 #      output: web, pdf
 
-  - title: Deep Feedforward Networks
+  - title: Computer Vision
     output: web, pdf
     folderitems:
 
-    - title: Multilayer Perceptrons (MLPs)
-      url: /mlp.html
+    - title: Deep Image Matting
+      url: /deep_image_matting.html
       output: web, pdf
 
   - title: Reinforcement Learning
