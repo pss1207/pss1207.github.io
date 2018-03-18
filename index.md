@@ -4,21 +4,17 @@ keywords: profile
 tags: [profile]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: Algorithm Engineer with 8+ years in analysis, design, development and implementation of medical and healthcare algorithms.
+summary: Algorithm Engineer with 9+ years in analysis, design, development and implementation of medical and healthcare algorithms.
 
 ---
 ---
 # Research Areas
 
-### Data Science
-* Body Composition Analysis - Body Fat, Muscle, Body Water
-* Sleep Stage Classification
-* Stress Classification
-* Emotion Recognition
-
-### Medical Imaging
-* Ultrasound Elastography
-* Optical Coherence Tomography
+### Machine Learning and Deep Learning
+* Computer Vision - Image Synthesis
+* Arts - Style Transfer
+* Medical - Cancer Diagnosis, Dementia
+* Wearable Healthcare - Body Composition, Sleep Stage, Stress, Emotion
 
 ### Bio Signal Processing
 * Heart Rate and Heart Rate Variability
@@ -26,13 +22,17 @@ summary: Algorithm Engineer with 8+ years in analysis, design, development and i
 * Respiratory Rate
 * Noise Removal
 
+### Medical Imaging
+* Ultrasound Elastography
+* Optical Coherence Tomography
+
 <hr>
 
 # Skills
 
 ### Software
-* MATLAB
 * Python
+* MATLAB
 * R
 * C/C++
 * LabVIEW
@@ -46,13 +46,17 @@ summary: Algorithm Engineer with 8+ years in analysis, design, development and i
 ### Database / Web / App
 * SQL
 * Amazon Web Service
-* Android
 
 ---
 
 # Experience
+## Artificial Intelligence Research Institute / Research Engineer
+JANUARY 2018 - CURRENT,  GYEONGGI
+### Atelier
+* Conducting research on developing artificial intelligence and computer vision algorithms in the domain of art
+
 ## Samsung Electronics / Senior Algorithm Engineer
-NOVEMBER 2014 - PRESENT,  GYEONGGI
+NOVEMBER 2014 - DECEMBER 2017,  GYEONGGI
 ### S-Patch (KFDA)
 * Developed heart rate estimation, heart rate variability estimation algorithms
 * Developed respiratory rate estimation algorithm
